@@ -1,0 +1,30 @@
+List of models i should have:
+
+x2 of each type of goal: 
+------------------------
+neutral_1
+neutral_4
+red_2
+red_3 
+
+x1 of:
+------------------------
+center_goal
+field_walls
+gps_strip
+
+a lot of:
+------------------------
+cups
+yy_pin
+ry_pin
+by_pin
+rb_pin
+
+Other Notes:
+
+actual measured inside corner distance (from CAD): 3.566 m / 11.7 ft
+wall thickness: 2 in / 50.8 mm
+wall height: 308.83 mm 
+
+1/3 of the wall: 1.18872

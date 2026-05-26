@@ -12,7 +12,6 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 find_package(geometry_msgs REQUIRED)
-# find_package(vex_interfaces REQUIRED)
 
 install(
   DIRECTORY launch worlds models
