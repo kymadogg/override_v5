@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <model name="neutral_goal">
+
+    <!-- model position in the world -->
+   
+    <!-- locked postiton? -->
+    <static>true</static>
+
+    <link name="link">
+      <!--pose of link relative to model-->
+      <pose>0 0 0 0 0 0</pose>
+
+      <!-- visual model-->
+      <visual name="visual">
+        <geometry>
+            <box>
+                <size>0.1426 0.1426 0.1465</size> <!-- Length Width Height in meters -->
+            </box>
+        </geometry>
+            <material> <!-- black -->
+              <ambient>0.039, 0.039, 0.039 1.0</ambient>
+              <diffuse>0.039, 0.039, 0.039 1.0</diffuse>
+              <specular>0.1 0.1 0.1 1.0</specular>
+              <emissive>0 0 0 1</emissive>
+          </material>
+      </visual>
+
+      <!-- collision geometry-->
+      <collision name="collision">
+        <geometry>
+            <box>
+                <size>0.1426 0.1426 0.1465</size> <!-- Length Width Height in meters -->
+            </box>
+        </geometry>
+      </collision>
+
+      <inertial>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0002</ixx>
+          <iyy>0.0002</iyy>
+          <izz>0.0002</izz>
+        </inertia>
+      </inertial>
+    </link>
+
+  </model>
+</sdf>
