@@ -1,8 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.7">
   <model name="blue_goal">
-
-    <!-- model position in the world -->
    
     <!-- locked postiton? -->
     <static>true</static>
@@ -14,9 +12,9 @@
       <!-- visual model-->
       <visual name="visual">
         <geometry>
-            <box>
-                <size>0.1426 0.1426 0.0825</size>
-            </box>
+          <mesh>
+            <uri>model://blue_goal/blue_goal.gltf</uri>
+          </mesh>
         </geometry>
             <material> <!-- blue -->
               <ambient>0, 0.529, 1 1.0</ambient>

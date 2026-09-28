@@ -83,38 +83,38 @@
     <!-- NEUTRAL GOALS -->
     <include>
       <name>neutral1_1</name>
-      <pose>1.2192 0.6096 0.07325 0 0 0</pose>
+      <pose>1.2192 0.6096 0.0640 0 0 0</pose>
       <uri>model://neutral_goal</uri>
     </include>
 
     <include>
       <name>neutral1_4</name>
-      <pose>0.6096 1.2192 0.07325 0 0 0</pose>
+      <pose>0.6096 1.2192 0.0640 0 0 0</pose>
       <uri>model://neutral_goal</uri>
     </include>
 
     <include>
       <name>neutral3_1</name>
-      <pose>-1.2192 -0.6096 0.07325 0 0 0</pose>
+      <pose>-1.2192 -0.6096 0.0640 0 0 0</pose>
       <uri>model://neutral_goal</uri>
     </include>
 
     <include>
       <name>neutral3_4</name>
-      <pose>-0.6096 -1.2192 0.07325 0 0 0</pose>
+      <pose>-0.6096 -1.2192 0.0640 0 0 0</pose>
       <uri>model://neutral_goal</uri>
     </include>
 
     <!-- RED GOALS -->
     <include>
       <name>red2_2</name>
-      <pose>-0.6096 1.2192 0.04125 0 0 0</pose>
+      <pose>-0.6096 1.2192 0 0 0 0</pose>
       <uri>model://red_goal</uri>
     </include>
 
     <include>
       <name>red2_3</name>
-      <pose>-1.2192 0.6096 0.04125 0 0 0</pose>
+      <pose>-1.2192 0.6096 0 0 0 0</pose>
       <uri>model://red_goal</uri>
     </include>
 
@@ -122,13 +122,13 @@
 
     <include>
       <name>blue4_2</name>
-      <pose>0.6096 -1.2192 0.04125 0 0 0</pose>
+      <pose>0.6096 -1.2192 0 0 0 0</pose>
       <uri>model://blue_goal</uri>
     </include>
 
     <include>
-      <name>red4_3</name>
-      <pose>1.2192 -0.6096 0.04125 0 0 0</pose>
+      <name>blue4_3</name>
+      <pose>1.2192 -0.6096 0 0 0 0</pose>
       <uri>model://blue_goal</uri>
     </include>
 
