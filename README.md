@@ -6,7 +6,7 @@ Gazebo Sim Harmonic + ROS 2 Jazzy version of the 2026-27 VEX Robotics Competitio
 ros2 launch override_v5 world_select.launch.py world:=override
 ```
 
-![V1 of the override gz sim world](.docs/world_v1.png)
+![V1 of the override gz sim world](.docs/world_v2.png)
 
 ## Resources
 - [Apriltag texture generation](https://github.com/rickarmstrong/gazebo_apriltag)
