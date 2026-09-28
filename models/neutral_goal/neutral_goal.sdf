@@ -13,10 +13,10 @@
 
       <!-- visual model-->
       <visual name="visual">
-        <geometry>
-            <box>
-                <size>0.1426 0.1426 0.1465</size> <!-- Length Width Height in meters -->
-            </box>
+          <geometry>
+          <mesh>
+            <uri>model://neutral_goal/neutral_goal.gltf</uri>
+          </mesh>
         </geometry>
             <material> <!-- black -->
               <ambient>0.039, 0.039, 0.039 1.0</ambient>

@@ -13,10 +13,10 @@
 
       <!-- visual model-->
       <visual name="visual">
-        <geometry>
-            <box>
-                <size>0.1426 0.1426 0.0825</size>
-            </box>
+          <geometry>
+          <mesh>
+            <uri>model://red_goal/red_goal.gltf</uri>
+          </mesh>
         </geometry>
             <material> <!-- red -->
               <ambient>0.80, 0.0, 0.0 1.0</ambient>

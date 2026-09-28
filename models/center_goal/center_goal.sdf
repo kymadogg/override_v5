@@ -1,8 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.7">
   <model name="center_goal">
-
-    <!-- model position in the world -->
    
     <!-- locked postiton? -->
     <static>true</static>
@@ -14,15 +12,15 @@
       <!-- visual model-->
       <visual name="visual">
         <geometry>
-            <box>
-                <size>0.1426 0.1426 0.2227</size> <!-- Length Width Height in meters -->
-            </box>
+          <mesh>
+            <uri>model://center_goal/center_goal.gltf</uri>
+          </mesh>
         </geometry>
-            <material> <!-- black -->
-              <ambient>0.039, 0.039, 0.039 1.0</ambient>
-              <diffuse>0.039, 0.039, 0.039 1.0</diffuse>
-              <specular>0.1 0.1 0.1 1.0</specular>
-              <emissive>0 0 0 1</emissive>
+          <material> <!-- black -->
+            <ambient>0.039, 0.039, 0.039 1.0</ambient>
+            <diffuse>0.039, 0.039, 0.039 1.0</diffuse>
+            <specular>0.1 0.1 0.1 1.0</specular>
+            <emissive>0 0 0 1</emissive>
           </material>
       </visual>
 
