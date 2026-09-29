@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.7">
-  <model name="center_goal">
+  <model name="blue_goal_3">
    
     <!-- locked postiton? -->
     <static>true</static>
@@ -13,14 +13,14 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://center_goal/center_goal.gltf</uri>
+            <uri>model://blue_goal_2/blue_goal.gltf</uri>
           </mesh>
         </geometry>
-          <material> <!-- black -->
-            <ambient>0.039, 0.039, 0.039 1.0</ambient>
-            <diffuse>0.039, 0.039, 0.039 1.0</diffuse>
-            <specular>0.1 0.1 0.1 1.0</specular>
-            <emissive>0 0 0 1</emissive>
+            <material> <!-- blue -->
+              <ambient>0, 0.529, 1 1.0</ambient>
+              <diffuse>0, 0.529, 1 1.0</diffuse>
+              <specular>0.1 0.1 0.1 1.0</specular>
+              <emissive>0 0 0 1</emissive>
           </material>
       </visual>
 
@@ -28,7 +28,7 @@
       <collision name="collision">
         <geometry>
             <box>
-                <size>0.1426 0.1426 0.2227</size> <!-- Length Width Height in meters -->
+                <size>0.1426 0.1426 0.0825</size> 
             </box>
         </geometry>
       </collision>
@@ -45,27 +45,27 @@
 
     <include>
       <name>tag_0</name>
-      <pose>0.05 0 0.065 1.5708 -1.5708 1.5708</pose>
-      <uri>model://tag21_07_00000</uri>
+      <pose>0.05 0 0.04 1.5708 -1.5708 1.5708</pose>
+      <uri>model://tag21_07_00003</uri>
     </include>
 
     <include>
       <name>tag_90</name>
-      <pose>0 0.05 0.065 1.5708 1.5708 0</pose>
-      <uri>model://tag21_07_00000</uri>
+      <pose>0 0.05 0.04 1.5708 1.5708 0</pose>
+      <uri>model://tag21_07_00003</uri>
     </include>
 
     <include>
       <name>tag_180</name>
-      <pose>-0.05 0 0.065 1.5708 1.5708 1.5708</pose>
-      <uri>model://tag21_07_00000</uri>
+      <pose>-0.05 0 0.04 1.5708 1.5708 1.5708</pose>
+      <uri>model://tag21_07_00003</uri>
     </include>
 
     <include>
       <name>tag_270</name>
-      <pose>0 -0.05 0.065 1.5708 -1.5708 0</pose>
-      <uri>model://tag21_07_00000</uri>
+      <pose>0 -0.05 0.04 1.5708 -1.5708 0</pose>
+      <uri>model://tag21_07_00003</uri>
     </include>
-    
+
   </model>
 </sdf>

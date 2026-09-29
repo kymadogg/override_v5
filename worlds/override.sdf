@@ -1,6 +1,6 @@
 <sdf version='1.10'>
   <world name='override'>
-   <plugin
+    <plugin
       filename="gz-sim-physics-system"
       name="gz::sim::systems::Physics">
     </plugin>
@@ -84,51 +84,51 @@
     <include>
       <name>neutral1_1</name>
       <pose>1.2192 0.6096 0.0640 0 0 0</pose>
-      <uri>model://neutral_goal</uri>
+      <uri>model://neutral_goal_1</uri>
     </include>
 
     <include>
       <name>neutral1_4</name>
       <pose>0.6096 1.2192 0.0640 0 0 0</pose>
-      <uri>model://neutral_goal</uri>
+      <uri>model://neutral_goal_4</uri>
     </include>
 
     <include>
       <name>neutral3_1</name>
       <pose>-1.2192 -0.6096 0.0640 0 0 0</pose>
-      <uri>model://neutral_goal</uri>
+      <uri>model://neutral_goal_1</uri>
     </include>
 
     <include>
       <name>neutral3_4</name>
       <pose>-0.6096 -1.2192 0.0640 0 0 0</pose>
-      <uri>model://neutral_goal</uri>
+      <uri>model://neutral_goal_4</uri>
     </include>
 
     <!-- RED GOALS -->
     <include>
-      <name>red2_2</name>
+      <name>red_2</name>
       <pose>-0.6096 1.2192 0 0 0 0</pose>
-      <uri>model://red_goal</uri>
+      <uri>model://red_goal_2</uri>
     </include>
 
     <include>
-      <name>red2_3</name>
+      <name>red_3</name>
       <pose>-1.2192 0.6096 0 0 0 0</pose>
-      <uri>model://red_goal</uri>
+      <uri>model://red_goal_3</uri>
     </include>
 
     <!-- BLUE GOALS -->
     <include>
-      <name>blue4_2</name>
+      <name>blue_2</name>
       <pose>0.6096 -1.2192 0 0 0 0</pose>
-      <uri>model://blue_goal</uri>
+      <uri>model://blue_goal_2</uri>
     </include>
 
     <include>
-      <name>blue4_3</name>
+      <name>blue_3</name>
       <pose>1.2192 -0.6096 0 0 0 0</pose>
-      <uri>model://blue_goal</uri>
+      <uri>model://blue_goal_3</uri>
     </include>
 
   </world>
