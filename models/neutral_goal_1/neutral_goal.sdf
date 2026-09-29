@@ -2,8 +2,6 @@
 <sdf version="1.7">
   <model name="neutral_goal_1">
 
-    <!-- model position in the world -->
-   
     <!-- locked postiton? -->
     <static>true</static>
 
