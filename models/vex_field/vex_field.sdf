@@ -38,7 +38,19 @@
           <izz>0.0002</izz>
         </inertia>
       </inertial>
+    </link>
 
+    <link name="field_tape">
+      <pose>0 -0.305 0 0 1.5708 0</pose>
+
+      <!-- tape only needs visual -->
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://vex_field/meshes/field_tape.gltf</uri>
+          </mesh>
+        </geometry>
+      </visual>
     </link>
   </model>
 </sdf>
