@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <model name="toggle">
+   
+    <!-- locked postiton? -->
+    <static>true</static>
+
+    <link name="link">
+      <!-- pose of link relative to model -->
+      <pose>0 0 0 0 0 0</pose>
+
+      <!-- visual model-->
+      <visual name="visual">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://toggle/toggle_v2.gltf</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <!-- collision geometry-->
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>0.0285</radius>
+            <length>0.69302</length>
+          </cylinder> 
+        </geometry>
+      </collision>
+
+      <!-- <inertial>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0002</ixx>
+          <iyy>0.0002</iyy>
+          <izz>0.0002</izz>
+        </inertia>
+      </inertial> -->
+    </link>
+    
+  </model>
+</sdf>

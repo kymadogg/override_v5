@@ -131,5 +131,30 @@
       <uri>model://blue_goal_3</uri>
     </include>
 
+    <!-- TOGGLES -->
+    <include>
+      <name>toggle_0</name>
+      <pose>1.81 0 0.347 -1.57 0.3163 -3.1415</pose>
+      <uri>model://toggle</uri>
+    </include>
+
+    <include>
+      <name>toggle_90</name>
+      <pose>0 1.81 0.347 -1.57 -1.09 1.57</pose>
+      <uri>model://toggle</uri>
+    </include>
+
+    <include>
+      <name>toggle_180</name>
+      <pose>-1.81 0 0.347 -1.57 -1.0 -3.1415</pose>
+      <uri>model://toggle</uri>
+    </include>
+
+    <include>
+      <name>toggle_270</name>
+      <pose>0 -1.81 0.347 -1.57 0 1.57</pose>
+      <uri>model://toggle</uri>
+    </include>
+
   </world>
 </sdf>
